@@ -3,7 +3,7 @@ name: autocommit-robot
 on:
   schedule:
     - cron: "15 17 * * *"
-
+  workflow_dispatch:
 jobs:
   bots:
     runs-on: ubuntu-latest
