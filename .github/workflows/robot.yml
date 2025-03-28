@@ -2,7 +2,7 @@ name: autocommit-robot
 
 on:
   schedule:
-    - cron: "6 1 * * *"
+    - cron: "8 1 * * *"
 
 jobs:
   bots:
